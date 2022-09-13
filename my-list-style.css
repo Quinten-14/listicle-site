@@ -1,0 +1,183 @@
+/**
+ TODO(you): Add CSS for the list that you create yourself!
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+h1 {
+    color: White;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    max-width: 400px;
+    background-color: lightgreen;
+}
+
+.bgimg {
+    background-image: url(images/background.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.contentbrowser {
+    margin-top: 50px;
+    background-color: lightgreen;
+    width: 50%;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: lightgreen;
+    font-size: 80px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+.centerp {
+    padding-top: 80px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.engines {
+    padding-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentstyling {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.linksincontentbrowser ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.linksincontentbrowser a {
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+}
+
+.linksincontentbrowser a:hover {
+    background-color: #4CAF50;
+}
+
+.footer {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    max-width: 250px;
+}
+
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+  
+  
+::-webkit-scrollbar-track {
+    background: white;
+}
+  
+  
+::-webkit-scrollbar-thumb {
+    background: lightgreen;
+    border-radius: 20px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: greenyellow;
+}
